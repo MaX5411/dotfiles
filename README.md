@@ -18,7 +18,7 @@ mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 ```
 
-# Instal standart utils
+# Install standart utils
 ```bash
 sudo apt install -y \
     zsh git gpg pass zip unzip \    
