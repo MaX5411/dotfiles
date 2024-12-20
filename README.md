@@ -32,6 +32,7 @@ sudo ln -s $(which batcat) /usr/local/bin/bat
 # zsh settings
 # Install oh-my-zsh
 https://ohmyz.sh
+
 https://github.com/romkatv/powerlevel10k
 
 
