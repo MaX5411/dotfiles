@@ -2,7 +2,7 @@ My dot files for `~/.config` directory — nvim, tmux, alacritty etc.
 
 
 
-# dot-files
+# Dot-files
 
 `git clone git@github.com:MaX5411/dotfiles.git .config`
 
