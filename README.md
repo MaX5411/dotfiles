@@ -4,7 +4,11 @@ My dot files for `~/.config` directory — nvim, tmux, alacritty etc.
 
 # dot-files
 
-`git clone https://github.com/MaX5411/dotfiles .config`
+`git clone git@github.com:MaX5411/dotfiles.git .config`
+
+```bash
+mkdir -p /mnt/c/Users/%USERNAME%/AppData/Roaming/alacritty
+```
 
 # Copy Alacritty config into Windows
 ```bash
@@ -14,15 +18,15 @@ cp $HOME/.config/alacritty/alacritty.toml \
 
 # Alacritty's themes
 ```bash
-mkdir -p ~/.config/alacritty/themes
-git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+git clone https://github.com/alacritty/alacritty-theme 
+mv alacritty-theme/ /mnt/c/Users/%USERNAME%/AppData/Roaming/alacritty/themes
 ```
 
 # Install standart utils
 ```bash
 sudo apt install -y \
     zsh git gpg pass zip unzip \    
-	curl wget tmux gcc bsdmainutils htop fzf bat ripgrep build-essential
+	curl wget tmux gcc bsdmainutils htop fzf bat ripgrep build-essential tree mc
 ```
 	
 ```bash
